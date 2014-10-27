@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="albumcollection.xsl" type="text/xsl" ?>
+<!--artist input rules: Input collaborative artists as one element.-->
+<!--genre input rules: Use allmusic.com as primary genre authority and wikipedia.com as secondary genre authority.-->
+<!--track credit input rules: do not list band names; list single artists. List artists in alphabetical order by last name. List first names first.--> 
+<!--album condition input rules: Use categorization schema from http://www.vinylrecords.ch/Vinyl/vin_grading.htm -->
+
+<albumcollection title="My Albums">
+
+	<album>
+		<number></number>
+		<artist>Beatles, The</artist> 
+		<album_title>Please Please Me</album_title>
+		<album_length>32:45</album_length>
+		<number_of_tracks>14</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Apple/Capitol</record_label>
+		<date_released>
+			<decade_released>1962</decade_released>
+			<year_released>1963</year_released>
+			<month_released>March</month_released>
+			<day_released>22</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Rock</album_genre>
+			<album_genre>Pop</album_genre>
+			<album_genre>Merseybeat</album_genre>
+			<album_genre>Classic Rock</album_genre>
+		</genres>
+		<album_condition>VG-</album_condition>
+		<album_cover>images/pleasepleaseme.jpg</album_cover>
+	</album>		
+
+	<album>
+		<number></number>
+		<artist>Beatles, The</artist> 
+		<album_title>The Beatles (The White Album)</album_title>
+		<album_length>1:33:35</album_length>
+		
+		<number_of_tracks>41</number_of_tracks>
+		
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		
+		<record_label>Apple/Capitol</record_label>
+		
+		<date_released>
+			<decade_released>1960s</decade_released>
+			<year_released>1968</year_released>
+			<month_released>November</month_released>
+			<day_released>22</day_released>
+		</date_released>
+		
+		<genres>
+			<album_genre>Rock</album_genre>
+			<album_genre>Pop</album_genre>
+			<album_genre>Classic Rock</album_genre>
+		</genres>
+		
+		<album_condition>VG-</album_condition>
+		<album_cover>images/whitealbum.jpg</album_cover>
+	</album>	
+
+	<album>
+		<number></number>
+		<artist>Beatles, The</artist> 
+		<album_title>Sgt. Pepper's Lonely Hearts Club Band</album_title>
+		<album_length>39:42</album_length>
+		<number_of_tracks>13</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Apple/Capitol</record_label>
+		<date_released>
+			<decade_released>1960s</decade_released>
+			<year_released>1967</year_released>
+			<month_released>June</month_released>
+			<day_released>1</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Rock</album_genre>
+			<album_genre>Pop</album_genre>
+			<album_genre>Pyschedlic Rock</album_genre>
+			<album_genre>Conceptual Rock</album_genre>
+			<album_genre>Classic Rock</album_genre>
+		</genres>
+		<album_condition>VG-</album_condition>
+		<album_cover>images/sgtpepper.jpg</album_cover>
+	</album>	
+	
+	<album>
+		<artist>Beatles, The</artist> 
+		<album_title>Abbey Road</album_title>
+		<album_length>47&#58;29</album_length>
+		
+		<number_of_tracks>17</number_of_tracks>
+		
+		<tracks>
+			<track_number>1</track_number>
+			<track_title>Come Together</track_title>
+			<track_length>4:19</track_length>
+			<credit>			
+				<track_credit>John Lennon</track_credit>
+				<track_credit>Paul McCartney</track_credit>
+			</credit>			
+			
+			<track_number>2</track_number>
+			<track_title>Something</track_title>
+			<track_length>3:02</track_length>
+			<credit>			
+				<track_credit>George Harrison</track_credit>
+			</credit>
+			
+			<track_number>3</track_number>		
+			<track_title>Maxwell&#39;s Silver Hammer</track_title>
+			<track_length>3:27</track_length>
+			<credit>			
+				<track_credit>John Lennon</track_credit>
+				<track_credit>Paul McCartney</track_credit>
+			</credit>
+			
+			<track_number>4</track_number>		
+			<track_title>Oh! Darling</track_title>
+			<track_length>3:27</track_length>
+			<credit>
+				<track_credit>John Lennon</track_credit>
+				<track_credit>Paul McCartney</track_credit>
+			</credit>
+			
+			<track_number>5</track_number>
+			<track_title>Octopus&#39;s Garden</track_title>
+			<track_length>2:50</track_length>
+			<credit>
+				<track_credit>Richard Starkey/Ringo Starr</track_credit>
+			</credit>		
+			
+			<track_number>6</track_number>
+			<track_title>I Want  You (She&#39;s So Heavy)</track_title>
+			<track_length>7:47</track_length>
+			<credit>
+				<track_credit>John Lennon</track_credit>
+				<track_credit>Paul McCartney</track_credit>
+			</credit>		
+			
+			<track_number>7</track_number>
+			<track_title>Here Comes the Sun</track_title>
+			<track_length>3:05</track_length>
+			<credit>
+				<track_credit>George Harrison</track_credit>
+			</credit>
+			
+			<track_number>8</track_number>
+			<track_title>Because</track_title>
+			<track_length>2:45</track_length>
+			<credit>
+				<track_credit>John Lennon</track_credit>
+				<track_credit>Paul McCartney</track_credit>
+			</credit>
+
+			<track_number>9</track_number>
+			<track_title>You Never Give Me Your Money</track_title>
+			<track_length>4:02</track_length>
+			<credit>
+				<track_credit>John Lennon</track_credit>
+				<track_credit>Paul McCartney</track_credit>
+			</credit>
+			
+			<track_number>10</track_number>		
+			<track_title>Sun King</track_title>
+			<track_length>2:26</track_length>
+			<credit>
+				<track_credit>John Lennon</track_credit>
+				<track_credit>Paul McCartney</track_credit>
+			</credit>
+			
+			<track_number>11</track_number>
+			<track_title>Mean Mr. Mustard</track_title>
+			<track_length>1:06</track_length>
+			<credit>
+				<track_credit>John Lennon</track_credit>
+				<track_credit>Paul McCartney</track_credit>
+			</credit>
+			
+			<track_number>12</track_number>
+			<track_title>Polythene Pam</track_title>
+			<track_length>1:12</track_length>
+			<credit>
+				<track_credit>John Lennon</track_credit>
+				<track_credit>Paul McCartney</track_credit>
+			</credit>
+			
+			<track_number>13</track_number>		
+			<track_title>She Came in Through the Bathroom Window</track_title>
+			<track_length>1:58</track_length>
+			<credit>			
+				<track_credit>John Lennon</track_credit>
+				<track_credit> McCartney</track_credit>
+			</credit>
+			
+			<track_number>14</track_number>			
+			<track_title>Golden Slumbers</track_title>
+			<track_length>1:31</track_length>
+			<credit>
+				<track_credit>John Lennon</track_credit>
+				<track_credit>Paul McCartney</track_credit>
+			</credit>
+			
+			<track_number>15</track_number>
+			<track_title>Carry That Weight</track_title>
+			<track_length>1:36</track_length>
+			<credit>
+				<track_credit>John Lennon</track_credit>
+				<track_credit>Paul McCartney</track_credit>
+			</credit>
+			
+			<track_number>16</track_number>
+			<track_title>The End</track_title>
+			<track_length>2:21</track_length>
+			<credit>
+				<track_credit>John Lennon</track_credit>
+				<track_credit>Paul McCartney</track_credit>
+			</credit>	
+			
+			<track_number>17</track_number>
+			<track_title>Her Majesty</track_title>
+			<track_length>0:26</track_length>
+			<credit>			
+				<track_credit>John Lennon</track_credit>
+				<track_credit>Paul McCartney</track_credit>
+			</credit>			
+		</tracks>
+		
+		<record_label>Apple/Capitol</record_label>
+		
+		<date_released>
+			<decade_released>1960s</decade_released>
+			<year_released>1969</year_released>
+			<month_released>September</month_released>
+			<day_released>29</day_released>
+		</date_released>
+		
+		<genres>
+			<album_genre>Rock</album_genre>
+			<album_genre>Pop</album_genre>
+			<album_genre>Classic Rock</album_genre>
+		</genres>
+		
+		<album_condition>VG-</album_condition>
+		<album_cover>images/abbeyroad.jpg</album_cover>
+	</album>
+	
+	<album>
+		<artist>Heart</artist> 
+		<album_title>Little Queen</album_title>
+		<album_length>39:26</album_length>
+		<number_of_tracks>10</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Portrait</record_label>
+		<date_released>
+			<decade_released>1970s</decade_released>
+			<year_released>1977</year_released>
+			<month_released>May</month_released>
+			<day_released>14</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Rock</album_genre>
+			<album_genre>Folk</album_genre>
+			<album_genre>Classic Rock</album_genre>
+		</genres>
+		<album_condition>VG</album_condition>
+		<album_cover>images/littlequeen.jpg</album_cover>
+	</album>			
+
+	<album>
+		<artist>Heart</artist> 
+		<album_title>Heart</album_title>
+		<album_length>39:24</album_length>
+		<number_of_tracks>10</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Capitol</record_label>
+		<date_released>
+			<decade_released>1980s</decade_released>
+			<year_released>1985</year_released>
+			<month_released>July</month_released>
+			<day_released>6</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Rock</album_genre>
+			<album_genre>Power Pop</album_genre>
+			<album_genre>Classic Rock</album_genre>
+		</genres>
+		<album_condition>VG</album_condition>
+		<album_cover>images/heart.jpg</album_cover>
+	</album>			
+
+	<album>
+		<artist>Fleetwood Mac</artist> 
+		<album_title>Rumours</album_title>
+		<album_length>39:03</album_length>
+		<number_of_tracks>11</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Warner Bros.</record_label>
+		<date_released>
+			<decade_released>1970s</decade_released>
+			<year_released>1977</year_released>
+			<month_released>February</month_released>
+			<day_released>4</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Rock</album_genre>
+			<album_genre>Soft Rock</album_genre>
+			<album_genre>Pop</album_genre>
+			<album_genre>Classic Rock</album_genre>
+		</genres>
+		<album_condition>VG</album_condition>
+		<album_cover>images/rumours.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Police, The</artist> 
+		<album_title>Reggatta de Blanc</album_title>
+		<album_length>41:52</album_length>
+		<number_of_tracks>11</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>A&amp;M</record_label>
+		<date_released>
+			<decade_released>1970s</decade_released>
+			<year_released>1979</year_released>
+			<month_released>October</month_released>
+			<day_released>5</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Rock</album_genre>
+			<album_genre>New Wave</album_genre>
+			<album_genre>Pop</album_genre>
+			<album_genre>Reggae</album_genre>
+		</genres>
+		<album_condition>VG</album_condition>
+		<album_cover>images/reggattadeblanc.jpg</album_cover>	
+	</album>	
+
+	<album>
+		<artist>Police, The</artist> 
+		<album_title>Ghost in the Machine</album_title>
+		<album_length>41:03</album_length>
+		<number_of_tracks>16</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>A&amp;M</record_label>
+		<date_released>
+			<decade_released>1980s</decade_released>
+			<year_released>1981</year_released>
+			<month_released>October</month_released>
+			<day_released>2</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Rock</album_genre>
+			<album_genre>New Wave</album_genre>
+			<album_genre>Pop</album_genre>
+			<album_genre>Reggae</album_genre>
+		</genres>
+		<album_condition>VG</album_condition>
+		<album_cover>images/ghostinthemachine.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Police, The</artist> 
+		<album_title>Every Breath You Take: The Singles</album_title>
+		<album_length>59:13</album_length>
+		<number_of_tracks>13</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>A&amp;M</record_label>
+		<date_released>
+			<decade_released>1980s</decade_released>
+			<year_released>1986</year_released>
+			<month_released>October</month_released>
+			<day_released>25</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Rock</album_genre>
+			<album_genre>New Wave</album_genre>
+			<album_genre>Pop</album_genre>
+			<album_genre>Reggae</album_genre>
+		</genres>
+		<album_condition>VG</album_condition>
+		<album_cover>images/everybreathyoutake.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Elton John</artist> 
+		<album_title>Don't Shoot Me I'm Only the Piano Player</album_title>
+		<album_length>42:45</album_length>
+		<number_of_tracks>10</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>DJM/MCA</record_label>
+		<date_released>
+			<decade_released>1970s</decade_released>
+			<year_released>1973</year_released>
+			<month_released>January</month_released>
+			<day_released>26</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Rock</album_genre>
+			<album_genre>Pop</album_genre>
+			<album_genre>Classic Rock</album_genre>
+		</genres>
+		<album_condition>VG</album_condition>
+		<album_cover>images/dontshootme.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Elton John</artist> 
+		<album_title>Elton John's Greatest Hits Volume II</album_title>
+		<album_length>49:51</album_length>
+		<number_of_tracks>13</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>DJM</record_label>
+		<date_released>
+			<decade_released>1970s</decade_released>
+			<year_released>1977</year_released>
+			<month_released>September</month_released>
+			<day_released>13</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Rock</album_genre>
+			<album_genre>Pop</album_genre>
+			<album_genre>Classic Rock</album_genre>
+		</genres>
+		<album_condition>VG</album_condition>
+		<album_cover>images/greatesthitsvolumeii.jpg</album_cover>
+	</album>		
+	
+	<album>
+		<artist>Supertramp</artist> 
+		<album_title>Breakfast in America</album_title>
+		<album_length>46:12</album_length>
+		<number_of_tracks>10</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>A&amp;M</record_label>
+		<date_released>
+			<decade_released>1970s</decade_released>
+			<year_released>1979</year_released>
+			<month_released>March</month_released>
+			<day_released>29</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Rock</album_genre>
+			<album_genre>Pop</album_genre>
+			<album_genre>Classic Rock</album_genre>
+		</genres>
+		<album_condition>VG</album_condition>
+		<album_cover>images/breakfastinamerica.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Michael Jackson</artist> 
+		<album_title>Thriller</album_title>
+		<album_length>42:19</album_length>
+		<number_of_tracks>9</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Epic</record_label>
+		<date_released>
+			<decade_released>1980s</decade_released>
+			<year_released>1982</year_released>
+			<month_released>November</month_released>
+			<day_released>30</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Pop</album_genre>
+			<album_genre>Funk</album_genre>
+			<album_genre>Dance</album_genre>
+			<album_genre>R&amp;B</album_genre>
+		</genres>
+		<album_condition>VG</album_condition>
+		<album_cover>images/thriller.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Michael Jackson</artist> 
+		<album_title>Bad</album_title>
+		<album_length>48:16</album_length>
+		<number_of_tracks>11</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Epic</record_label>
+		<date_released>
+			<decade_released>1980s</decade_released>
+			<year_released>1987</year_released>
+			<month_released>August</month_released>
+			<day_released>31</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Pop</album_genre>
+			<album_genre>Funk</album_genre>
+			<album_genre>Dance</album_genre>
+			<album_genre>R&amp;B</album_genre>
+		</genres>
+		<album_condition>VG+</album_condition>
+		<album_cover>images/bad.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Otis Redding</artist> 
+		<album_title>Pain in My Heart</album_title>
+		<album_length>30:17</album_length>
+		<number_of_tracks>12</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Atco</record_label>
+		<date_released>
+			<decade_released>1960s</decade_released>
+			<year_released>1964</year_released>
+			<month_released>January</month_released>
+			<day_released>1</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Soul</album_genre>
+			<album_genre>R&amp;B</album_genre>
+			<album_genre>Motown</album_genre>
+		</genres>
+		<album_condition>VG</album_condition>
+		<album_cover>images/paininmyheart.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Paul Simon</artist> 
+		<album_title>Graceland</album_title>
+		<album_length>43:18</album_length>
+		<number_of_tracks>11</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Warner Bros.</record_label>
+		<date_released>
+			<decade_released>1980s</decade_released>
+			<year_released>1986</year_released>
+			<month_released>August</month_released>
+			<day_released>25</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Pop</album_genre>
+			<album_genre>Folk</album_genre>
+		</genres>
+		<album_condition>VG+</album_condition>
+		<album_cover>images/graceland.jpg</album_cover>		
+	</album>	
+
+	<album>
+		<artist>Various</artist> 
+		<album_title>16 #1 Hits from the Early 60's</album_title>
+		<album_length>44:27</album_length>
+		<number_of_tracks>16</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Motown Records</record_label>
+		<date_released>
+			<decade_released>1980s</decade_released>
+			<year_released>1982</year_released>
+			<month_released>October</month_released>
+			<day_released>25</day_released>
+		</date_released>
+		<genres>
+			<album_genre>R&amp;B</album_genre>
+			<album_genre>Motown</album_genre>
+			<album_genre>Soul</album_genre>
+			<album_genre>Pop</album_genre>
+		</genres>
+		<album_condition>VG-</album_condition>
+		<album_cover>images/16hits.jpg</album_cover>				
+	</album>	
+
+	<album>
+		<artist>Prince</artist> 
+		<album_title>Prince</album_title>
+		<album_length>40:52</album_length>
+		<number_of_tracks>9</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Warner Bros.</record_label>
+		<date_released>
+			<decade_released>1970s</decade_released>
+			<year_released>1979</year_released>
+			<month_released>October</month_released>
+			<day_released>19</day_released>
+		</date_released>
+		<genres>
+			<album_genre>R&amp;B</album_genre>
+			<album_genre>Funk</album_genre>
+			<album_genre>Damce</album_genre>
+			<album_genre>Pop</album_genre>
+		</genres>
+		<album_condition>VG-</album_condition>
+		<album_cover>images/prince.jpg</album_cover>
+	</album>
+
+	<album>
+		<artist>Prince</artist> 
+		<album_title>Purple Rain</album_title>
+		<album_length>43:51</album_length>
+		<number_of_tracks>9</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Warner Bros.</record_label>
+		<date_released>
+			<decade_released>1980s</decade_released>
+			<year_released>1984</year_released>
+			<month_released>June</month_released>
+			<day_released>25</day_released>
+		</date_released>
+		<genres>
+			<album_genre>R&amp;B</album_genre>
+			<album_genre>Funk</album_genre>
+			<album_genre>Dance</album_genre>
+			<album_genre>Pop</album_genre>
+			<album_genre>Rock</album_genre>
+			</genres>
+		<album_condition>VG-</album_condition>
+		<album_cover>images/purplerain.jpg</album_cover>
+	</album>		
+
+	<album>
+		<artist>Various</artist> 
+		<album_title>Motown Monster Hits Vol. 2</album_title>
+		<album_length>26:09</album_length>
+		<number_of_tracks>9</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Motown Records</record_label>
+		<date_released>
+			<decade_released>1970s</decade_released>
+			<year_released>1976</year_released>
+			<month_released>October</month_released>
+			<day_released>25</day_released>
+		</date_released>
+		<genres>
+			<album_genre>R&amp;B</album_genre>
+			<album_genre>Funk</album_genre>
+			<album_genre>Pop</album_genre>
+			<album_genre>Soul</album_genre>
+			</genres>
+		<album_condition>VG-</album_condition>
+		<album_cover>images/motownmonsterhits.jpg</album_cover>
+	</album>		
+
+	<album>
+		<artist>Hall and Oates</artist> 
+		<album_title>H2O</album_title>
+		<album_length>47:08</album_length>
+		<number_of_tracks>11</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>RCA Records</record_label>
+		<date_released>
+			<decade_released>1980s</decade_released>
+			<year_released>1982</year_released>
+			<month_released>December</month_released>
+			<day_released>4</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Pop</album_genre>
+			<album_genre>Rock</album_genre>
+			<album_genre>Dance</album_genre>
+			</genres>
+		<album_condition>VG+</album_condition>
+		<album_cover>images/h20.jpg</album_cover>
+	</album>			
+
+	<album>
+		<artist>Bon Jovi</artist> 
+		<album_title>Slippery When Wet</album_title>
+		<album_length>42:22</album_length>
+		<number_of_tracks>10</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Mercury Records</record_label>
+		<date_released>
+			<decade_released>1980s</decade_released>
+			<year_released>1986</year_released>
+			<month_released>August</month_released>
+			<day_released>18</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Rock</album_genre>
+			<album_genre>Hair Metal</album_genre>
+		</genres>
+		<album_condition>VG-</album_condition>
+		<album_cover>images/slipperywhenwet.jpg</album_cover>
+	</album>		
+
+	<album>
+		<artist>Bruce Springsteen</artist> 
+		<album_title>Born in the U.S.A.</album_title>
+		<album_length>46:19</album_length>
+		<number_of_tracks>12</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Columbia</record_label>
+		<date_released>
+			<decade_released>1980s</decade_released>
+			<year_released>1984</year_released>
+			<month_released>June</month_released>
+			<day_released>4</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Rock</album_genre>
+			<album_genre>Heartland Rock</album_genre>
+		</genres>
+		<album_condition>VG-</album_condition>
+		<album_cover>images/bornintheusa.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Cure, The</artist> 
+		<album_title>Standing on a Beach</album_title>
+		<album_length>45:44</album_length>
+		<number_of_tracks>13</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Elektra</record_label>
+		<date_released>
+			<decade_released>1980s</decade_released>
+			<year_released>1986</year_released>
+			<month_released>May</month_released>
+			<day_released>6</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Rock</album_genre>
+			<album_genre>Post-Punk</album_genre>
+			<album_genre>New Wave</album_genre>
+			<album_genre>Pop</album_genre>
+		</genres>
+		<album_condition>VG-</album_condition>
+		<album_cover>images/standingonabeach.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Wintersleep</artist> 
+		<album_title>Hello Hum</album_title>
+		<album_length>45:34</album_length>
+		<number_of_tracks>11</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Roll Call Records</record_label>
+		<date_released>
+			<decade_released>2010s</decade_released>
+			<year_released>2012</year_released>
+			<month_released>June</month_released>
+			<day_released>12</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Indie Rock</album_genre>
+			<album_genre>New Wave</album_genre>
+		</genres>
+		<album_condition>NM</album_condition>
+		<album_cover>images/hellohum.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Sufjan Stevens</artist> 
+		<album_title>Illinois</album_title>
+		<album_length>73:59</album_length>
+		<number_of_tracks>22</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Asthmatic Kitty/Secretly Canadian</record_label>
+		<date_released>
+			<decade_released>2000s</decade_released>
+			<year_released>2005</year_released>
+			<month_released>July</month_released>
+			<day_released>4</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Indie Rock</album_genre>
+			<album_genre>Indie Pop</album_genre>
+		</genres>
+		<album_condition>NM</album_condition>
+		<album_cover>images/illinois.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Dum Dum Girls</artist> 
+		<album_title>Only in Dreams</album_title>
+		<album_length>36:30</album_length>
+		<number_of_tracks>10</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Sub Pop</record_label>
+		<date_released>
+			<decade_released>2010s</decade_released>
+			<year_released>2011</year_released>
+			<month_released>September</month_released>
+			<day_released>26</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Indie Rock</album_genre>
+			<album_genre>Dream Rock</album_genre>
+		</genres>
+		<album_condition>NM</album_condition>
+		<album_cover>images/onlyindreams.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Vampire Weekend</artist> 
+		<album_title>Modern Vampires of the City</album_title>
+		<album_length>42:54</album_length>
+		<number_of_tracks>12</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>XL</record_label>
+		<date_released>
+			<decade_released>2010s</decade_released>
+			<year_released>2013</year_released>
+			<month_released>May</month_released>
+			<day_released>14</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Indie Rock</album_genre>
+			<album_genre>Indie Pop</album_genre>
+		</genres>
+		<album_condition>NM</album_condition>
+		<album_cover>images/modernvampiresofthecity.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Justin Timberlake</artist> 
+		<album_title>20/20 Experience</album_title>
+		<album_length>70:02</album_length>
+		<number_of_tracks>10</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>RCA</record_label>
+		<date_released>
+			<decade_released>2010s</decade_released>
+			<year_released>2013</year_released>
+			<month_released>March</month_released>
+			<day_released>19</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Pop</album_genre>
+			<album_genre>Dance</album_genre>			
+			<album_genre>Neo-Soul</album_genre>
+		</genres>
+		<album_condition>NM</album_condition>
+		<album_cover>images/2020experience.jpg</album_cover>
+	</album>		
+
+	<album>
+		<artist>Daft Punk</artist> 
+		<album_title>Random Access Memories</album_title>
+		<album_length>74:24</album_length>
+		<number_of_tracks>13</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Columbia/Daft Life</record_label>
+		<date_released>
+			<decade_released>2010s</decade_released>
+			<year_released>2013</year_released>
+			<month_released>May</month_released>
+			<day_released>17</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Electronic</album_genre>
+			<album_genre>Funk</album_genre>			
+			<album_genre>Dance</album_genre>			
+			<album_genre>Neo-Disco</album_genre>
+		</genres>
+		<album_condition>NM</album_condition>
+		<album_cover>images/randomaccessmemories.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Menahan Street Band</artist> 
+		<album_title>Make the Road by Walking</album_title>
+		<album_length>34:48</album_length>
+		<number_of_tracks>11</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Dunham</record_label>
+		<date_released>
+			<decade_released>2000s</decade_released>
+			<year_released>2008</year_released>
+			<month_released>October</month_released>
+			<day_released>14</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Funk</album_genre>
+			<album_genre>Lounge</album_genre>			
+			<album_genre>Instrumental</album_genre>		
+			<album_genre>Jazz</album_genre>					
+		</genres>
+		<album_condition>NM</album_condition>
+		<album_cover>images/maketheroadbywalking.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Menahan Street Band</artist> 
+		<album_title>The Crossing</album_title>
+		<album_length>37:24</album_length>
+		<number_of_tracks>11</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Dunham</record_label>
+		<date_released>
+			<decade_released>2010s</decade_released>
+			<year_released>2012</year_released>
+			<month_released>October</month_released>
+			<day_released>30</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Funk</album_genre>
+			<album_genre>Lounge</album_genre>			
+			<album_genre>Instrumental</album_genre>
+			<album_genre>Jazz</album_genre>				
+		</genres>
+		<album_condition>NM</album_condition>
+		<album_cover>images/thecrossing.jpg</album_cover>
+	</album>	
+	
+	<album>
+		<artist>Ratatat</artist> 
+		<album_title>Ratatat</album_title>
+		<album_length>45:25</album_length>
+		<number_of_tracks>11</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>XL</record_label>
+		<date_released>
+			<decade_released>2000s</decade_released>
+			<year_released>2004</year_released>
+			<month_released>April</month_released>
+			<day_released>20</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Electronic Rock</album_genre>	
+			<album_genre>Instrumental</album_genre>
+			<album_genre>Experimental</album_genre>				
+		</genres>
+		<album_condition>NM</album_condition>
+		<album_cover>images/ratatat.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Ratatat</artist> 
+		<album_title>Classics</album_title>
+		<album_length>42:31</album_length>
+		<number_of_tracks>11</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>XL</record_label>
+		<date_released>
+			<decade_released>2000s</decade_released>
+			<year_released>2006</year_released>
+			<month_released>August</month_released>
+			<day_released>22</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Electronic Rock</album_genre>	
+			<album_genre>Instrumental</album_genre>
+			<album_genre>Experimental</album_genre>				
+		</genres>
+		<album_condition>NM</album_condition>
+		<album_cover>images/classics.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Decemberists, The</artist> 
+		<album_title>Picaresque</album_title>
+		<album_length>53:07</album_length>
+		<number_of_tracks>11</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Capitol/Rough Trade</record_label>
+		<date_released>
+			<decade_released>2000s</decade_released>
+			<year_released>2005</year_released>
+			<month_released>March</month_released>
+			<day_released>22</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Indie Rock</album_genre>	
+			<album_genre>Folk Rock</album_genre>
+			<album_genre>Progressive Rock</album_genre>				
+		</genres>
+		<album_condition>NM</album_condition>
+		<album_cover>images/picaresque.jpg</album_cover>
+	</album>	
+	
+	<album>
+		<artist>Decemberists, The</artist> 
+		<album_title>The Crane Wife</album_title>
+		<album_length>60:15</album_length>
+		<number_of_tracks>10</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Capitol/Rough Trade</record_label>
+		<date_released>
+			<decade_released>2000s</decade_released>
+			<year_released>2006</year_released>
+			<month_released>October</month_released>
+			<day_released>03</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Indie Rock</album_genre>	
+			<album_genre>Folk Rock</album_genre>
+			<album_genre>Progressive Rock</album_genre>				
+		</genres>
+		<album_condition>NM</album_condition>
+		<album_cover>images/thecranewife.jpg</album_cover>
+	</album>	
+
+		<album>
+		<artist>Decemberists, The</artist> 
+		<album_title>The King is Dead</album_title>
+		<album_length>40:26</album_length>
+		<number_of_tracks>10</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Capitol/Rough Trade</record_label>
+		<date_released>
+			<decade_released>2010s</decade_released>
+			<year_released>2011</year_released>
+			<month_released>January</month_released>
+			<day_released>14</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Indie Rock</album_genre>	
+			<album_genre>Folk Rock</album_genre>
+			<album_genre>Americana</album_genre>				
+		</genres>
+		<album_condition>NM</album_condition>
+		<album_cover>images/thekingisdead.jpg</album_cover>
+	</album>	
+
+	<album>
+		<artist>Dr. Dog</artist> 
+		<album_title>We All Belong</album_title>
+		<album_length>36:27</album_length>
+		<number_of_tracks>13</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Park the Van</record_label>
+		<date_released>
+			<decade_released>2000s</decade_released>
+			<year_released>2007</year_released>
+			<month_released>February</month_released>
+			<day_released>27</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Indie Rock</album_genre>	
+			<album_genre>Psychedelic Rock</album_genre>		
+		</genres>
+		<album_condition>NM</album_condition>
+		<album_cover>images/weallbelong.jpg</album_cover>
+	</album>
+
+	<album>
+		<artist>Fitz and the Tantrums</artist> 
+		<album_title>More than Just a Dream</album_title>
+		<album_length>43:06</album_length>
+		<number_of_tracks>12</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Elektra</record_label>
+		<date_released>
+			<decade_released>2010s</decade_released>
+			<year_released>2013</year_released>
+			<month_released>May</month_released>
+			<day_released>7</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Neo-Soul</album_genre>	
+			<album_genre>Indie Pop</album_genre>		
+		</genres>
+		<album_condition>VG+</album_condition>
+		<album_cover>images/morethanjustadream.jpg</album_cover>
+	</album>
+
+	<album>
+		<artist>Chvrches</artist> 
+		<album_title>The Bones of What You Believe</album_title>
+		<album_length>48:00</album_length>
+		<number_of_tracks>12</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Virgin</record_label>
+		<date_released>
+			<decade_released>2010s</decade_released>
+			<year_released>2013</year_released>
+			<month_released>September</month_released>
+			<day_released>13</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Synthpop</album_genre>	
+			<album_genre>Indie Pop</album_genre>		
+		</genres>
+		<album_condition>NM</album_condition>
+		<album_cover>images/thebonesofwhatyoubelieve.jpg</album_cover>
+	</album>
+	
+	<album>
+		<artist>Cars, The</artist> 
+		<album_title>The Cars</album_title>
+		<album_length>35:40</album_length>
+		<number_of_tracks>9</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Elektra/ Asylum</record_label>
+		<date_released>
+			<decade_released>1970s</decade_released>
+			<year_released>1978</year_released>
+			<month_released>June</month_released>
+			<day_released>6</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Rock</album_genre>	
+			<album_genre>New Wave</album_genre>		
+		</genres>
+		<album_condition>VG</album_condition>
+		<album_cover>images/thecars.jpg</album_cover>
+	</album>
+	
+		<album>
+		<artist>Spoon</artist> 
+		<album_title>They Want My Soul</album_title>
+		<album_length>37:35</album_length>
+		<number_of_tracks>10</number_of_tracks>
+		<tracks>
+			<track_number></track_number>
+			<track_title></track_title>
+			<track_length></track_length>
+			<credit>			
+				<track_credit></track_credit>
+				<track_credit></track_credit>
+			</credit>					
+		</tracks>
+		<record_label>Loma Vista</record_label>
+		<date_released>
+			<decade_released>2010s</decade_released>
+			<year_released>2014</year_released>
+			<month_released>August</month_released>
+			<day_released>5</day_released>
+		</date_released>
+		<genres>
+			<album_genre>Indie Rock</album_genre>					
+			<album_genre>Rock</album_genre>	
+			<album_genre>New Wave</album_genre>
+			</genres>
+		<album_condition>M</album_condition>
+		<album_cover>images/theywantmysoul.jpg</album_cover>
+	</album>
+	
+</albumcollection>

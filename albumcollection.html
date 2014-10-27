@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+	<xsl:output method="html" encoding="UTF-8"/>	
+  	<title>Autumn's Album Collection</title>
+	<meta name="description" content="Welcome to my album collection" />
+	<meta name="keywords" content="albums, records, collection, music" />
+	<meta name="author" content="Autumn Hood" />
+	<link rel="stylesheet" type="text/css" href="albumcollection.css" >
+
+	<script src="sorttable.js"></script>	
+
+
+<script language="javascript" "defer">
+function loadXMLDoc(dname)
+{
+    if (window.XMLHttpRequest)
+    {xhttp=new XMLHttpRequest();}
+    else
+    {xhttp=new ActiveXObject("Microsoft.XMLHTTP");}
+	
+    xhttp.open("GET",dname,false);
+try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
+xhttp.send("");    
+return xhttp.responseXML;}
+function displayResult()
+{
+  // var xml;
+   //var xsl;
+   //var ex;
+   //var resultDocument
+   xml = loadXMLDoc("albumcollection.xml");
+   xsl = loadXMLDoc("albumcollection.xsl");
+   // code for IE
+   if (window.ActiveXObject)
+   {ex=xml.transformNode(xsl);
+   document.getElementById("example").innerHTML=ex;}
+   
+   // code for Mozilla, FireFox, Opera, etc.
+   else if (document.implementation && document.implementation.createDocument)
+   {xsltProcessor=new XSLTProcessor();
+    xsltProcessor.importStylesheet(xsl);
+    resultDocument = xsltProcessor.transformToFragment(xml,document);
+	document.getElementById("example").appendChild(resultDocument);}}
+</script>
+</head>
+
+<body onload="displayResult()">
+	<div id="example"/>
+</body>
+</div>
+<footer></footer>
+</html>

@@ -1,0 +1,46 @@
+#container {
+	max-width:1024px; margin-right:auto; margin-left:auto;}
+	
+#sources
+	{text-align:right; font-family:'Arial', sans serif; 
+	font-size:10pt; list-style-type:none; color:#ffffff;
+	text-decoration:none; padding-right:1em; }
+
+a:link {text-decoration:none; color:#ffffff; }	
+a:visited {color:#DBFFDB;}
+	
+h1 {font-family:'Arial', sans serif; 
+	font-size:40px; font-weight:bold; 
+	padding-left:.5em;  color:#ffffff; font-weight:bold;}
+h2 {font-family:'Arial', sans serif; font-size:18px; 
+	padding-left:.5em;  color:#ffffff; font-weight:bold;}
+hr {color:#C2D6D6; }	
+
+body {background-color:#666699; color:#ffffff; 
+	font-family:'Arial', sans serif; 
+	font-size:18px; font-weight:bold;}
+
+table {width:100%;
+	border-collapse:collapse; 
+	font-family:'Arial', sans serif;
+	font-weight:normal;
+    background:#DBFFDB;
+    font-size:14px;
+    color:black;}
+	
+ul  {list-style-type:none;}
+td.narrow { width:5%; text-align:left;	padding-left:1em;}
+td.medium { width:10%; text-align:left; padding-left:1em;}
+img {width:200px; height:200px;}
+
+/* Zebra striping */
+tr:nth-of-type(even){ background:#C2D6D6; font-family:'Arial', sans serif;}	
+	
+th { background:#666699;	color:#ffffff; font-weight:bold; font-size:18px; 
+	background:#666699; font-family:'Arial', sans serif; text-align: left; 
+	padding-left:2em; padding-top:1em; padding-bottom:1em;}
+/* End zebra */		
+
+footer {font-family:'Arial', sans serif; font-size:30px; 
+	font-weight:bold; padding-left:1em; 
+	color:#ffffff; text-decoration:blink;}
